@@ -157,8 +157,7 @@ public class UploadFile extends HttpServlet {
 
 
     /**
-     * Uploads a file in a single request. This approach is preferred for small files since it
-     * eliminates unnecessary round-trips to the servers.
+     * Uploads a file in a single request.
      *
      * @param dbxClient Dropbox user authenticated client
      * @param localFile local file to upload
